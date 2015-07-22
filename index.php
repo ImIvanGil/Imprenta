@@ -72,7 +72,7 @@
 <div id="templatemo_footer_wrapper">
 	<div id="templatemo_footer">
 
-       	<a href="#">C&eacute;nit Consultores</a>
+       	<a href="#">C&eacute;nit Consultores.</a>
     
     </div> <!-- end of templatemo_footer -->
 </div> <!-- end of templatemo_footer_wrapper -->
