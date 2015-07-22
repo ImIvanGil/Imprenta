@@ -41,7 +41,7 @@
                       <label for="userName">Usuario:</label> 
                         <input name="userName" type="text" class="required input_field" id="userName" size="15" />
                           
-                        <label for="userPass">Contraseña:</label> 
+                        <label for="userPass">Pass:</label> 
                         <input name="userPass" type="password" class="validate-email required input_field" id="userPass" size="15" />
 						<br /><br />
                         
