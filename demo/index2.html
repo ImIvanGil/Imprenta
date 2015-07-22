@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="images/favicon.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sistema ERP</title>
+<link href="templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<script language="javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.pager.js"></script>
+<script type="text/javascript" src="js/chili/chili-1.8b.js"></script>
+<script type="text/javascript" src="js/docs.js"></script>
+
+<script type="text/javascript" src="js/jquery.alerts.js"></script>
+<script src="js/jquery.ui.draggable2.js"></script>
+
+<!-- script que hace el ordenamiento de la tabla -->
+<script type="text/javascript">
+$(document).ready(function() 
+    { 
+        $("#tablesorter-test").tablesorter({sortList:[[0,0]], widthFixed: true, widgets: ['zebra'], headers: { 4:{sorter: false},5:{sorter: false},6:{sorter: false}}});
+		 $("#tablesorter-test").tablesorterPager({container: $("#pager")});
+    } 
+);
+</script>
+
+</head>
+<body>
+
+<div id="templatemo_wrapper">
+
+	<div id="templatemo_header">
+
+    	<div id="site_title">
+            <h1><a href="#">Sistema ERP<span>Para la Industria Gr&aacute;fica</span></a></h1>
+        </div> <!-- end of site_title -->
+        
+        <div class="cleaner"></div>
+    </div> <!-- end of templatemo_header -->
+    
+    <div id="templatemo_menu">
+        <ul>
+            <li><a href="#" class="current">Ventas</a></li>
+            <li><a href="produccion.html">Producci&oacute;n</a></li>
+            <li><a href="almacen.html">Almac&eacute;n</a></li>
+            <li><a href="nomina.html">N&oacute;mina</a></li>
+            <li><a href="admin.html">Administraci&oacute;n</a></li>
+             <li><a href="crm.html">CRM</a></li>
+            <li><a href="usuarios.html">Usuarios</a></li>
+            <li><a href="salir.html">Salir</a></li>
+        </ul>    	
+    </div> <!-- end of templatemo_menu -->
+
+    <div id="templatemo_banner_wrapper">
+    
+    <div id="templatemo_banner_thin"> 
+    
+    	
+    
+    	<div class="cleaner"></div>
+        
+    </div> <!-- end of banner -->
+    
+    </div>	<!-- end of banner_wrapper -->
+    
+    <div id="templatemo_service_bar_wrapper">
+    
+    <div id="templatemo_service_bar">
+
+         <div class="sb_box">
+                
+            <img src="images/iconos/onebit_78.png" alt="image 1" />
+            <a href="#">Nueva Cotizaci&oacute;n</a>
+            
+        </div>
+        
+        <div class="sb_box">
+                
+            <img src="images/iconos/onebit_77.png" alt="image 2" />
+            <a href="#">Nueva Orden de Venta</a>
+            
+        </div>
+        
+        <div class="sb_box sb_box_last">
+                
+            <img src="images/iconos/onebit_18.png" alt="image 3" />
+            <a href="#">Lista de Clientes</a>
+            
+        </div>
+    
+    </div> <!-- end of templatemo_service_bar -->
+    
+    </div> <!-- end of templatemo_service_bar_wrapper -->
+    
+    <div id="templatemo_content_wrapper">
+    <div id="templatemo_content">
+    
+    	<div class="col_w565">
+    
+            <h2>Lista de &Oacute;rdenes de Venta</h2>
+            
+            
+            <table id="tablesorter-test" class="tablesorter" cellspacing="0">
+            <thead>
+                <tr align="center">
+                    <th class="header">No.</th>
+                    <th class="header">Fecha</th>
+                    <th class="header">Cliente</th>
+                    <th class="header">Estado</th>
+                    <th>Imprimir</th>
+                    <th>Editar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
+            	<tr><td>001V</td><td>09-06-11</td><td>Transformaciones y Servicios</td><td>En proceso</td><td align="center"><img src="images/iconos/onebit_39.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_20.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_33.png" width="24px" /></td></tr>
+                <tr><td>002V</td><td>07-06-11</td><td>Soriana de Chihuahua</td><td>En proceso</td><td align="center"><img src="images/iconos/onebit_39.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_20.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_33.png" width="24px" /></td></tr>
+                
+                <tr><td>003V</td><td>05-06-11</td><td>Escuela de Psicología</td><td>En proceso</td><td align="center"><img src="images/iconos/onebit_39.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_20.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_33.png" width="24px" /></td></tr>
+                
+                <tr><td>004V</td><td>05-06-11</td><td>Juan Dom&iacute;nguez Luna</td><td>Suspendido</td><td align="center"><img src="images/iconos/onebit_39.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_20.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_33.png" width="24px" /></td></tr>
+                
+                <tr><td>005V</td><td>04-06-11</td><td>Hospital Central Universitario</td><td>En proceso</td><td align="center"><img src="images/iconos/onebit_39.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_20.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_33.png" width="24px" /></td></tr>
+                
+                <tr><td>006V</td><td>02-06-11</td><td>Maria Estela López López</td><td>En proceso</td><td align="center"><img src="images/iconos/onebit_39.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_20.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_33.png" width="24px" /></td></tr>
+                
+                <tr><td>007V</td><td>02-06-11</td><td>Servicios de Limpieza</td><td>En proceso</td><td align="center"><img src="images/iconos/onebit_39.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_20.png" width="24px" /></td><td align="center"><img src="images/iconos/onebit_33.png" width="24px" /></td></tr>
+            </tbody>
+            </table>
+        <br /> <br />
+         <div id="pager" class="tablesorterPager" align="center">
+        <form>
+            <img src="images/first.png" class="first"/>
+            <img src="images/prev.png" class="prev"/>
+            <input type="text" class="pagedisplay"/>
+            <img src="images/next.png" class="next"/>
+            <img src="images/last.png" class="last"/>
+            <select class="pagesize">
+                <option selected="selected"  value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option  value="40">40</option>
+            </select>
+        </form>
+       </div>
+        
+        
+            
+            
+       	  <div class="cleaner_h20"></div>
+            
+            
+		</div>
+        
+        <div class="col_260 col_last">
+        
+            <h2>Opciones</h2>
+            
+        	<div class="sb_news_box">
+            	<ul class="tmo_list col_260">
+                     <li><span>&raquo;</span><a href="#">Lista de cotizaciones</a></li>
+                     <li><span>&raquo;</span><a href="#">&Oacute;rdenes de venta</a></li>
+                     <li><span>&raquo;</span><a href="#">Cat&aacute;logo de producto terminado</a></li>
+                     <li><span>&raquo;</span><a href="#">Cat&aacute;logo de clientes</a></li>
+                     <li><span>&raquo;</span><a href="#">Facturaci&oacute;n</a></li>
+                     <li><span>&raquo;</span><a href="#">Reportes</a></li>
+               </ul>
+            </div>
+            
+            
+            
+        </div>
+        
+        <div class="cleaner"></div>
+    </div>
+    </div>
+
+</div> <!-- end of templatemo_wrapper -->
+
+<div id="templatemo_footer_wrapper">
+	<div id="templatemo_footer">
+
+       	<a href="#">C&eacute;nit Consultores</a>
+    
+    </div> <!-- end of templatemo_footer -->
+</div> <!-- end of templatemo_footer_wrapper -->
+
+</body>
+</html>

@@ -1,0 +1,493 @@
+body {
+	margin: 0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #3e3e3e;
+	background: #e2e2e2 url(../images/templatemo_page_bg.jpg) repeat-x  center top;
+	width: 100%;
+	display: table;
+}
+
+strong{
+	color: #ee5f00;
+	font-weight:bold;
+}
+
+a:link, a:visited { 
+	color: #ee5f00; 
+	text-decoration: none; 
+} 
+fieldset{
+	border: #a30000 solid 2px;
+	background:#F2DECA;
+	width: 870px;
+	padding: 7px;
+}
+
+
+
+a:active, a:hover { 
+	color: #009900; 
+	text-decoration: underline; 
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #a30000;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #cb1a1a;
+	margin-left: 30px;
+	width: 200px;
+	border-bottom: dashed 1px #999999;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: bold;
+	color: #f67400;
+}
+
+/*estilo sin banda lateral*/
+#templatemo_container {
+	width: 1005px;
+	margin: auto;
+	background:url(../images/templatemo_container_bg3.jpg) repeat-y;
+}
+
+/*estilo con banda lateral*/
+#templatemo_container2 {
+	width: 1005px;
+	margin: auto;
+	background:url(../images/templatemo_container_bg4.jpg) repeat-y;
+}
+
+#templatemo_left_section {
+	float: left;
+	width: 700px;
+}
+
+#templatemo_right_section {
+	float: left;
+	width: 305px;
+}
+
+#templatemo_left_header {
+	float: left;
+	width: 700px;
+	height: 216px;
+	background: url(../images/templatemo_left_header2.jpg) no-repeat;
+}
+
+#templatemo_left_title {
+	padding-top: 30px;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: bold;
+	height: 45px;
+	width: 450px;
+	line-height: 1.6em;
+	padding-left: 50px;
+}
+
+#templatemo_left_slogan {
+	float: left;
+	height: 35px;
+	width: 450px;
+	color:#ffe9ba;
+	padding-left: 50px;
+}
+
+#templatemo_latest {
+	float: left;
+	margin: 40px 0px 0px 130px;
+	width: 300px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#templatemo_latest a {
+	color: #ffffff;
+}
+
+#templatemo_left_menu {
+	float: left;
+	width: 700px;
+	height: 73px;
+	background: url(../images/templatemo_left_menu2.jpg) no-repeat;
+}
+
+.templatemo_topmenu{
+	float: left;
+	margin: 3px 0px 0px 20px;
+}
+
+.templatemo_topmenu ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.templatemo_topmenu li{
+	display: inline;
+}
+
+.templatemo_topmenu li a{
+	float: left;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	width: 90px;
+	height: 31px;
+	margin-left: 0px;
+	padding-top: 11px;
+}
+
+.templatemo_topmenu li a:hover ,.templatemo_topmenu li .current{
+	background: url(../images/templatemo_hover.jpg) repeat-x;
+}
+
+/*sin banda lateral*/
+#templatemo_left_content {
+	float: left;
+	width: 700px;
+	margin: 0px 0px 20px 50px;
+	text-align: justify;
+}
+
+/*con banda lateral*/
+#templatemo_left_content2 {
+	float: left;
+	width: 550px;
+	margin: 0px 0px 20px 50px;
+	text-align: justify;
+}
+
+/*sin banda lateral*/
+.templatemo_content_left {
+	float: left;
+	width: 700px;
+}
+/*con banda lateral*/
+.templatemo_content_left {
+	float: left;
+	width: 200px;
+}
+
+.templatemo_content_right {
+	float: right;
+	width: 200px;
+}
+
+#templatemo_right_top {
+	float: left;
+	width: 305px;
+	height: 216px;
+	background: url(../images/templatemo_right_top3.jpg) no-repeat;
+}
+
+/*sin banda lateral*/
+#templatemo_right_search {
+	float: left;
+	width: 305px;
+	height: 73px;
+	background: url(../images/templatemo_search_menu2.jpg) no-repeat;
+}
+
+/*con banda lateral*/
+#templatemo_right_search2 {
+	float: left;
+	width: 305px;
+	height: 73px;
+	background: url(../images/templatemo_search_menu.jpg) no-repeat;
+}
+
+#templatemo_memberlog {
+	float: left;
+	width: 305px;
+}
+
+#templatemo_category {
+	float: left;
+	width: 305px;
+	margin-top: 0px;
+}
+
+.templatemo_rightmenu {
+	float: left;
+	margin-top: 0px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.templatemo_rightmenu ul {
+	list-style-type: none;
+}
+
+.templatemo_rightmenu li a {
+	display: block;
+	width: 171px;
+	height: 23px;
+	font-size: 11px;
+	color: #a30000;
+	margin-top: 2px;
+	padding-left: 40px;
+	padding-top: 5px;
+	background: url(../images/templatemo_button.png) no-repeat;
+}
+
+.templatemo_rightmenu li a:hover{
+	color: #000;
+}
+
+#templatemo_contact {
+	float: left;
+	width: 305px;
+}
+
+#templatemo_contact p {
+	padding-left: 40px;
+	font-weight: bold;
+}
+
+#templatemo_footer {
+	clear: both;
+	width: 970px;
+	height: 28px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: bold;
+	margin-left: 18px;
+	margin-top: 30px;
+	padding-top: 20px;
+	background: url(../images/templatemo_footer_bg.jpg) repeat-x;
+}
+
+#form1 {
+	float:left;
+	margin-top: 0px;
+}
+
+#numeroE {
+	width: 120px;
+	margin: 10px 0px 0px 40px;
+	font-size: 11px;
+}
+
+#search_btn {
+	font-size: 11px;
+	background:#FFFFFF;
+	border: 0px;
+	margin-left: 5px;
+}
+
+#form2 {
+	margin-left: 30px;
+}
+
+#user_name {
+	width: 100px;
+	font-size: 10px;
+	margin-left: 10px;
+}
+
+#password {
+	width: 100px;
+	font-size: 10px;
+	margin-left: 17px;
+}
+
+#login {
+	font-size: 10px;
+}
+
+#newmember {
+	font-size: 10px;
+	margin-left: 20px;
+}
+
+/*FORMATO PARA FORMULARIOS*/
+
+input.texto {   
+	color: #666666;
+	border: 1px solid #7b0100;
+}
+
+input.texto2 {   
+	color: #666666;
+	border: 1px solid #7b0100;
+	background: #f4f2b2;
+	text-align:right;
+	font-size:8pt;
+}
+
+input.boton{ 
+	color: #fff; 
+	background:#a30000;
+	border: 1px dotted #FFFFFF;
+	width:inherit;
+} 
+
+select { 
+	color: #666666;
+	background:#FFFFFF;
+	border: #7b0100 1px solid; 
+}
+
+/* table Sorter */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #FCE9C2;
+	border: none;
+	font-size: 8pt;
+	padding: 4px;
+	border:	#FFFFFF;
+	
+}
+table.tablesorter thead th.header {
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 2px 4px 2px 4px;
+	background-color: #FFF;
+	vertical-align: middle;
+	
+}
+
+table.tablesorter tbody td a {
+	text-decoration:none;
+	color:#fff;
+}
+table.tablesorter tbody td a:hover {
+	text-decoration:none;
+	color:#fff;
+}
+
+table.tablesorter tbody td textarea{
+	border:none;
+	padding: 2px;
+	font-size:10pt;
+	background-color:#fff;
+	color:#808180;
+	text-align:left;
+	vertical-align:top;
+	overflow: auto;
+}
+
+table.tablesorter tbody tr.odd td {
+	background-color:#FCE9C2;
+}
+
+table.tablesorter tbody tr.odd a {
+	text-decoration:none;
+	color:#FCE9C2;
+}
+table.tablesorter tbody tr.odd a:hover {
+	text-decoration:none;
+	color:#FCE9C2;
+}
+
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(../images/asc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(../images/desc.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #FDCA5D;
+}
+
+/* table Sorter Pager */
+
+div.tablesorterPager {
+	padding: 5px 0 5px 0;
+	background-color: #fff;
+	text-align: center;
+	width:430px;
+	border:0px;
+	position:absolute;
+}
+div.tablesorterPager span {
+	padding: 0 5px 0 5px;
+}
+div.tablesorterPager input.prev {
+	width: auto;
+	margin-right: 10px;
+}
+div.tablesorterPager input.next {
+	width: auto;
+	margin-left: 10px;
+}
+div.tablesorterPager input {
+	font-size: 10px;
+	width: 50px;
+	border: 1px solid #dfdfdf;
+	text-align: center;
+}
+.detallen{
+	width: auto;
+	font-size:8pt;
+	
+}
+.cabezadetalle{
+	border: 1px solid #7b0100;
+	color: #3e3e3e;
+	background: #fce9c2;
+	font-weight:bold;
+}
+
+.lineadetalle{
+	color: #3e3e3e;
+	border: 1px solid #7b0100;
+	background: #ffffff;
+}
+
+.scroll{
+	
+	padding: 15px;
+	width:640px;
+	overflow:auto;
+	background:#F9EDE0;
+	border: inset #EDD3B8 2px;
+}
+
+.tscroll{
+	
+	padding: 3px;
+	overflow:auto;
+	background:#F9EDE0;
+	border: inset #EDD3B8 2px;
+}
+
+.resumen{
+font-size: 8pt;
+}
+
+a.icono{
+text-decoration:none;
+color: #FFFFFF;
+}

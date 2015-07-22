@@ -1,0 +1,45 @@
+<?php
+
+$adminConfig['userGroupNum']=4; // Number of user groups, to be displayed
+$adminConfig['htmlCharset']="iso-8859-1"; // Leave it blank, if you do not want to use one
+$adminConfig['htmlCss']="adminuser.css"; // Leave it blank, if you do not want to use one
+$adminConfig['htmlTitle']="Administraci&oacute;n de Usuarios"; // HTML Title
+$adminConfig['pageTitle']="Administraci&oacute;n de Usuarios";
+$adminConfig['curUserMsg']="Usted ha ingresado como: ";
+$adminConfig['allAdminMsg']="Numero de Administradores: ";
+$adminConfig['allUserMsg']="Numero de usuarios normales: ";
+$adminConfig['selectMsg']="Seleccione un usuario para editar: ";
+$adminConfig['editBtn']="Editar";
+$adminConfig['newBtn']="Nuevo";
+$adminConfig['tableBtn']="Ver tabla de usuarios";
+$adminConfig['logoutBtn']="Salir";
+$adminConfig['cancelBtn']="Cancelar";
+$adminConfig['submitBtn']="Enviar";
+$adminConfig['resetBtn']="Reiniciar";
+$adminConfig['deleteBtn']="Borrar usuario";
+$adminConfig['okBtn']="OK";
+$adminConfig['editUserMsg']="Ha seleccionado el siguiente usuario para edicion: ";
+$adminConfig['editInfoMsg']="Deje el campo de password en blanco, si no desea cambiar el password.";
+$adminConfig['editPassMsg']="Password: ";
+$adminConfig['editIsAdminMsg']="Administrador: ";
+$adminConfig['editUserGroupMsg']="Grupo de usuarios: ";
+$adminConfig['editYes']="SI";
+$adminConfig['editNo']="NO";
+$adminConfig['editRemarkMsg']="Remarks: ";
+$adminConfig['editUpdMsg']="El siguiente usuario fue actualizado: ";
+$adminConfig['delConfirmMsg']="El siguiente usuario sera borrado: ";
+$adminConfig['delDelMsg']="El siguiente usuario fue borrado: ";
+$adminConfig['delNotDelMsg']="The following user could not be deleted: ";
+$adminConfig['newUserMsg']="Usuario: ";
+$adminConfig['newPassMsg']="Password: ";
+$adminConfig['newIsAdminMsg']="Administrador: ";
+$adminConfig['newUserGroupMsg']="Grupo de usuarios: ";
+$adminConfig['newYes']="SI";
+$adminConfig['newNo']="NO";
+$adminConfig['newRemarkMsg']="Nombre: ";
+$adminConfig['newAddedMsg']="Se agregara el siguiente usuario: ";
+$adminConfig['newExistsMsg']="El siguiente usuario ya existe: ";
+$adminConfig['newNoUserMsg']="No se ha ingresado nombre de usuario, intente de nuevo!";
+$adminConfig['newNoPassMsg']="No se ha ingresado el password, intente de nuevo!";
+$adminConfig['newNoUserPassMsg']="No se ha ingresado password ni nombre de usuario, intente de nuevo!";
+?>

@@ -1,0 +1,35 @@
+BODY {
+
+	color: #000000;
+	background-color: #fafbf6;
+	background: #fafbf6 url(../images/templatemo_page_bg.jpg) repeat-x  center top;
+	font-family:  Helvetica, Tahoma, Verdana, Arial, Sans Serif;
+}
+
+H1 {
+	color: #889b08;
+	font-weight: bold;
+	font-size: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+
+P {
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #808180;
+	text-align: center;
+}
+
+A {
+	text-decoration: underline;
+	color: #84DEEE;
+	text-align: center;
+}
+
+A:Hover {
+	text-decoration: underline;
+	color: #76B6C1;
+}
