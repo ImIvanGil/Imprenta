@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/ivaang94/Imprenta.png?label=ready&title=Ready)](https://waffle.io/ivaang94/Imprenta)
 # Imprenta
 Repositorio del proyecto de Imprenta
 
